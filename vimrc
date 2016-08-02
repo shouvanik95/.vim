@@ -54,8 +54,8 @@ set guifont=Monaco
 
 "Leader and key mappings
 let mapleader=" "
-map <leader>s :source ~/.vimrc<CR>
 nmap <leader>w :w!<cr>
+nmap <leader>q :q!<cr>
 " Disable highlight when <leader><cr> is pressed
 map <silent> <leader><cr> :noh<cr>
 " Smart way to move between windows
@@ -63,3 +63,12 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+"Buffer navigaetion
+map <leader>l :bnext<cr>
+map <leader>h :bprevious<cr>
+" Useful mappings for managing tabs
+map <leader>tn :tabnew<cr>
+map <leader>to :tabonly<cr>
+map <leader>tc :tabclose<cr>
+map <leader>tm :tabmove 
+map <leader>t<leader> :tabnext 
