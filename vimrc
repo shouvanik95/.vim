@@ -1,3 +1,6 @@
+"Pathogen
+execute pathogen#infect()
+
 "This is how we cheat!
 set mouse=a
 
@@ -36,6 +39,8 @@ set autoindent
 set ruler
 set encoding=utf-8 
 set autoread
+set hlsearch
+set incsearch
 
 "Colorscheme
 filetype on
@@ -49,3 +54,12 @@ set guifont=Monaco
 
 "Leader and key mappings
 let mapleader=" "
+map <leader>s :source ~/.vimrc<CR>
+nmap <leader>w :w!<cr>
+" Disable highlight when <leader><cr> is pressed
+map <silent> <leader><cr> :noh<cr>
+" Smart way to move between windows
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
