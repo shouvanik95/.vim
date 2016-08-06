@@ -2,17 +2,17 @@
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
 [submodule "/Users/shouvanik/.vim/bundle/vim-easymotion"]
-	path = /Users/shouvanik/.vim/bundle/vim-easymotion
+	path = bundle/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion
 [submodule "/Users/shouvanik/.vim/bundle/tlib_vim"]
-	path = /Users/shouvanik/.vim/bundle/tlib_vim
+	path = bundle/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
 [submodule "/Users/shouvanik/.vim/bundle/vim-addon-mw-utils"]
-	path = /Users/shouvanik/.vim/bundle/vim-addon-mw-utils
+	path = bundle/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
 [submodule "/Users/shouvanik/.vim/bundle/vim-snipmate"]
-	path = /Users/shouvanik/.vim/bundle/vim-snipmate
+	path = bundle/vim-snipmate
 	url = https://github.com/garbas/vim-snipmate.git
 [submodule "/Users/shouvanik/.vim/bundle/vim-snippets"]
-	path = /Users/shouvanik/.vim/bundle/vim-snippets
+	path = bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git

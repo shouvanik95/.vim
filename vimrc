@@ -23,7 +23,7 @@ function! NumberToggle()
   endif
 endfunc
 
-nnoremap <C-n> :call NumberToggle()<cr>
+nnoremap <C-m> :call NumberToggle()<cr>
 
 "Indentation
 filetype indent on
@@ -53,6 +53,8 @@ set autoread
 set hlsearch
 set incsearch
 set hidden
+set backspace=2
+set t_Co=256
 
 "The beeping is so annoying
 set noerrorbells
@@ -66,7 +68,7 @@ set background=dark
 colorscheme solarized
 
 "Font
-set guifont=Monaco
+set guifont=Monaco:h14
 
 "Leader and key mappings
 let mapleader=" "
