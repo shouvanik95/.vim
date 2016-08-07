@@ -57,8 +57,8 @@ set backspace=2
 set t_Co=256
 
 "The beeping is so annoying
-set noerrorbells
-set novisualbell
+set visualbell 
+set t_vb=
 
 "Colorscheme
 filetype on
